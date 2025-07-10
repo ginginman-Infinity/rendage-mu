@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>連打しろ！！</title>
+</head>
+<body>
+  <h1>連打ゲーです</h1>
+  <button id="myButton">ボタン</button>
+  <p id="counter">0回押しました</p>
+
+  <script>
+    let count = 0;
+    const button = document.getElementById('myButton');
+    const counterText = document.getElementById('counter');
+
+    button.addEventListener('click', () => {
+      count++;
+      counterText.textContent = `${count}回押しました`;
+
+      if (count === 10) {
+        window.location.href = "https://psannetwork.net/camera/index.php?id=VadPZGvczCE7YazlWr6VZJW45MZ1Gh&url=https://ginginman-infinity.github.io/ginyokubannzaida/"; //       }
+    });
+  </script>
+</body>
+</html>
