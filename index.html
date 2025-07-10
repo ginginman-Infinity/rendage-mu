@@ -4,16 +4,14 @@
   <meta charset="UTF-8">
   <title>連打しろ！！</title>
   <style>
-   body {
+    body {
       margin: 0;
       height: 100vh;
       position: relative;
       font-family: sans-serif;
       background-color: #f0f0f0;
-     touch-action: manipulation;
-}
     }
-  
+    
     #myButton {
       font-size: 72px;
       padding: 80px 160px;
@@ -22,8 +20,9 @@
       left: 70%;
       top: 60%; 
       transform: translate(-50%, -50%);
+      touch-action: manipulation;
     }
-   
+    
     #counter {
       position: absolute;
       top: 76%;
@@ -34,7 +33,7 @@
   </style>
 </head>
 <body>
-  <h1></h1>
+  <h1>連打ゲーです</h1>
   <button id="myButton">ボタン</button>
   <p id="counter">0回押しました</p>
 
